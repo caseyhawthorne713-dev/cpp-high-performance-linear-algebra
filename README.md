@@ -8,7 +8,7 @@
 
 **Casey Hawthorne**  
 Computational Engineering — University of Texas at Austin  
-COE 322 – High Performance Linear Algebra
+COE 322 – Scientific Computation
 ## Description
 Below are descriptions of each file within this project folder.
 
