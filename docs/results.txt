@@ -1,1 +1,21 @@
-filler
+Timing Tests (Naive / Blocked / Recursive with thresholds) – Various Sizes
+
+Matrix size: 4 x 4
+----------------------------------------
+Naive:    Time = 1.064e-06 s, GFLOPS = 0.120301, % of peak = 0.273411
+Blocked:  Time = 1.031e-06 s, GFLOPS = 0.124151, % of peak = 0.282162
+
+Matrix size: 16 x 16
+----------------------------------------
+Recursive (TH=8):   Time = 2.8771e-05 s, GFLOPS = 0.284731, % of peak = 0.647116
+Recursive (TH=16):  Time = 1.6762e-05 s, GFLOPS = 0.488724, % of peak = 1.11074
+Naive:               Time = 4.5223e-05 s, GFLOPS = 0.181147, % of peak = 0.411697
+Blocked:             Time = 1.7175e-05 s, GFLOPS = 0.476972, % of peak = 1.08403
+
+Matrix size: 32 x 32
+----------------------------------------
+Recursive (TH=8):   Time = 0.000251485 s, GFLOPS = 0.260596, % of peak = 0.592264
+Recursive (TH=16):  Time = 0.000160477 s, GFLOPS = 0.408383, % of peak = 0.928142
+Recursive (TH=32):  Time = 0.0001020864 s, GFLOPS = 0.542229, % of peak = 1.23234
+Naive:               Time = 0.000328994 s, GFLOPS = 0.199201, % of peak = 0.45273
+Blocked:             Time = 0.000121618 s, GFLOPS = 0.538868, % of peak = 1.2247
