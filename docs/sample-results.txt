@@ -19,3 +19,5 @@ Recursive (TH=16):  Time = 0.000160477 s, GFLOPS = 0.408383, % of peak = 0.92814
 Recursive (TH=32):  Time = 0.0001020864 s, GFLOPS = 0.542229, % of peak = 1.23234
 Naive:               Time = 0.000328994 s, GFLOPS = 0.199201, % of peak = 0.45273
 Blocked:             Time = 0.000121618 s, GFLOPS = 0.538868, % of peak = 1.2247
+
+# Explanation and further results and comparizons may be seen in the write-up given in this directory
